@@ -5,13 +5,13 @@ import (
 	"os"
 	"time"
 
+	"github.com/distro/manager"
+	"github.com/distro/node"
+	"github.com/distro/task"
+	"github.com/distro/worker"
 	"github.com/docker/docker/client"
 	"github.com/golang-collections/collections/queue"
 	"github.com/google/uuid"
-	"github.com/tork/manager"
-	"github.com/tork/node"
-	"github.com/tork/task"
-	"github.com/tork/worker"
 )
 
 func main() {
