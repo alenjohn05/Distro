@@ -3,9 +3,9 @@ package worker
 import (
 	"fmt"
 
+	"github.com/distro/task"
 	"github.com/golang-collections/collections/queue"
 	"github.com/google/uuid"
-	"github.com/tork/task"
 )
 
 type Worker struct {
