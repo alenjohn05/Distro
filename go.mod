@@ -1,4 +1,4 @@
-module github.com/tork
+module github.com/distro
 
 go 1.20
 
